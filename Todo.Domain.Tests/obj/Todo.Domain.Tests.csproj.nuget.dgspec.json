@@ -1,0 +1,148 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Cursos Balta\\Todo\\Todo.Domain.Tests\\Todo.Domain.Tests.csproj": {}
+  },
+  "projects": {
+    "D:\\Cursos Balta\\Todo\\Todo.Domain.Tests\\Todo.Domain.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Cursos Balta\\Todo\\Todo.Domain.Tests\\Todo.Domain.Tests.csproj",
+        "projectName": "Todo.Domain.Tests",
+        "projectPath": "D:\\Cursos Balta\\Todo\\Todo.Domain.Tests\\Todo.Domain.Tests.csproj",
+        "packagesPath": "C:\\Users\\ESTÁGIO\\.nuget\\packages\\",
+        "outputPath": "D:\\Cursos Balta\\Todo\\Todo.Domain.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ESTÁGIO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/precisaosistemas/_packaging/InovaPay/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/precisaosistemas/_packaging/RecargaPS/nuget/v3/index.json": {},
+          "https://precisaosistemas.pkgs.visualstudio.com/_packaging/Bluedesk/nuget/v3/index.json": {},
+          "https://precisaosistemas.pkgs.visualstudio.com/_packaging/Inovafarma/nuget/v3/index.json": {},
+          "https://precisaosistemas.pkgs.visualstudio.com/_packaging/Precisao/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\Cursos Balta\\Todo\\Todo.Domain\\Todo.Domain.csproj": {
+                "projectPath": "D:\\Cursos Balta\\Todo\\Todo.Domain\\Todo.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.414\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Cursos Balta\\Todo\\Todo.Domain\\Todo.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Cursos Balta\\Todo\\Todo.Domain\\Todo.Domain.csproj",
+        "projectName": "Todo.Domain",
+        "projectPath": "D:\\Cursos Balta\\Todo\\Todo.Domain\\Todo.Domain.csproj",
+        "packagesPath": "C:\\Users\\ESTÁGIO\\.nuget\\packages\\",
+        "outputPath": "D:\\Cursos Balta\\Todo\\Todo.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\ESTÁGIO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/precisaosistemas/_packaging/InovaPay/nuget/v3/index.json": {},
+          "https://pkgs.dev.azure.com/precisaosistemas/_packaging/RecargaPS/nuget/v3/index.json": {},
+          "https://precisaosistemas.pkgs.visualstudio.com/_packaging/Bluedesk/nuget/v3/index.json": {},
+          "https://precisaosistemas.pkgs.visualstudio.com/_packaging/Inovafarma/nuget/v3/index.json": {},
+          "https://precisaosistemas.pkgs.visualstudio.com/_packaging/Precisao/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.414\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+D:\Cursos Balta\Todo\Todo.Infra\bin\Debug\netcoreapp3.1\Todo.Infra.deps.json
+D:\Cursos Balta\Todo\Todo.Infra\bin\Debug\netcoreapp3.1\Todo.Infra.dll
+D:\Cursos Balta\Todo\Todo.Infra\bin\Debug\netcoreapp3.1\Todo.Infra.pdb
+D:\Cursos Balta\Todo\Todo.Infra\bin\Debug\netcoreapp3.1\Todo.Domain.dll
+D:\Cursos Balta\Todo\Todo.Infra\bin\Debug\netcoreapp3.1\Todo.Domain.pdb
+D:\Cursos Balta\Todo\Todo.Infra\obj\Debug\netcoreapp3.1\Todo.Infra.csproj.AssemblyReference.cache
+D:\Cursos Balta\Todo\Todo.Infra\obj\Debug\netcoreapp3.1\Todo.Infra.GeneratedMSBuildEditorConfig.editorconfig
+D:\Cursos Balta\Todo\Todo.Infra\obj\Debug\netcoreapp3.1\Todo.Infra.AssemblyInfoInputs.cache
+D:\Cursos Balta\Todo\Todo.Infra\obj\Debug\netcoreapp3.1\Todo.Infra.AssemblyInfo.cs
+D:\Cursos Balta\Todo\Todo.Infra\obj\Debug\netcoreapp3.1\Todo.Infra.csproj.CoreCompileInputs.cache
+D:\Cursos Balta\Todo\Todo.Infra\obj\Debug\netcoreapp3.1\Todo.Infra.csproj.CopyComplete
+D:\Cursos Balta\Todo\Todo.Infra\obj\Debug\netcoreapp3.1\Todo.Infra.dll
+D:\Cursos Balta\Todo\Todo.Infra\obj\Debug\netcoreapp3.1\Todo.Infra.pdb
