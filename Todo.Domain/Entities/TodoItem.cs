@@ -23,7 +23,7 @@ namespace Todo.Domain.Entities
         public void MarkAsOnGoing()
             => Done = false;
 
-        public void DefineTitle(string title)
+        public void UpdateTitle(string title)
             => Title = title;
     }
 }
