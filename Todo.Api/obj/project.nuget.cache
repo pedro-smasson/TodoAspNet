@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "vIplFLIgDu9HowRe1xzNce1RqNvwEhzpIY0zwlTvk6mNhbvqiyzicHOxcjtyFVYhaPfAwpznu3o7Y3DclBdYMQ==",
+  "dgSpecHash": "8QDFWGMdBdGJ9DAlsU6rWPhQahfOLvBuhnDzPl2I2xC2DOvDr/AWuRoc1ducYeKcAHvja2NHamjOty443bvWtg==",
   "success": true,
   "projectFilePath": "D:\\Cursos Balta\\Todo\\Todo.Api\\Todo.Api.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\ESTÁGIO\\.nuget\\packages\\flunt\\2.0.5\\flunt.2.0.5.nupkg.sha512"
+  ],
   "logs": []
 }

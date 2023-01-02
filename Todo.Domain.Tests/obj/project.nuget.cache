@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "ZrrxqHbmTWNoG3a0KI+rRya3De6GFVjT2AVB84qAIl0Wq6ufTzBXim4+N2yfJHpRayLrvWv8l3a268Oeb+0xqw==",
+  "dgSpecHash": "pp9T64Gp7ALH3CuvBOPb4E53LEX07hzH7pBz6Vf3rZQf4Yvia0L24Z6su2i25kOSkAtx5Gj85JgpP4nfJ/OQvA==",
   "success": true,
   "projectFilePath": "D:\\Cursos Balta\\Todo\\Todo.Domain.Tests\\Todo.Domain.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ESTÁGIO\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",
+    "C:\\Users\\ESTÁGIO\\.nuget\\packages\\flunt\\2.0.5\\flunt.2.0.5.nupkg.sha512",
     "C:\\Users\\ESTÁGIO\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",
     "C:\\Users\\ESTÁGIO\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
     "C:\\Users\\ESTÁGIO\\.nuget\\packages\\microsoft.net.test.sdk\\16.5.0\\microsoft.net.test.sdk.16.5.0.nupkg.sha512",

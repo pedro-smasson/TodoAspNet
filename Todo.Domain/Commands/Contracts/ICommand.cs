@@ -1,9 +1,7 @@
-﻿using Flunt.Validations;
-
-namespace Todo.Domain.Commands.Contracts
+﻿namespace Todo.Domain.Commands.Contracts
 {
     public interface ICommand
     {
-        void Validate();
+        bool Validate();
     }
 }
