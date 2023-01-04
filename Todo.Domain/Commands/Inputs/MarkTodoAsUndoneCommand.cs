@@ -24,8 +24,8 @@ namespace Todo.Domain.Commands.Inputs
             (
                 new Contract<Notification>()
                     .Requires()
-                    .IsNotNullOrEmpty(User, "User", "The user cannot be null nor empty!")
-                    .IsGreaterOrEqualsThan(User, 5, "The user cannot have less than 5 characters!")
+                    .IsNullOrEmpty(User, "User", "The user cannot be null nor empty!")
+                    .IsLowerOrEqualsThan(User, 5, "The user cannot have less than 5 characters!")
             );
 
             return IsValid;
