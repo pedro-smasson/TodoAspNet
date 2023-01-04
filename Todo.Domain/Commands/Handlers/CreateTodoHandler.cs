@@ -25,7 +25,7 @@ namespace Todo.Domain.Commands.Handlers
 
             _todoRepository.Create(todo);
 
-            return new GenericCommandResult(true, "Todo created successfully!", null);
+            return new GenericCommandResult(true, "Todo created successfully!", todo);
         }
     }
 }
