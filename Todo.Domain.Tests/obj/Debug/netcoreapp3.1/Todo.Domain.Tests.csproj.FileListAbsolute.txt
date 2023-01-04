@@ -95,3 +95,4 @@ D:\Cursos Balta\Todo\Todo.Domain.Tests\obj\Debug\netcoreapp3.1\Todo.Domain.Tests
 D:\Cursos Balta\Todo\Todo.Domain.Tests\obj\Debug\netcoreapp3.1\Todo.Domain.Tests.dll
 D:\Cursos Balta\Todo\Todo.Domain.Tests\obj\Debug\netcoreapp3.1\Todo.Domain.Tests.pdb
 D:\Cursos Balta\Todo\Todo.Domain.Tests\obj\Debug\netcoreapp3.1\Todo.Domain.Tests.genruntimeconfig.cache
+D:\Cursos Balta\Todo\Todo.Domain.Tests\bin\Debug\netcoreapp3.1\Flunt.dll
