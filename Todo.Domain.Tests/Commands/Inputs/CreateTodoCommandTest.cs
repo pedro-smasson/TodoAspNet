@@ -12,8 +12,7 @@ namespace Todo.Domain.Tests.Commands.Inputs
         [DataRow("Te", "Pedro")]
         [DataRow("Tes", "Pedro")]
         [DataRow("Test", "Pedro")]
-        [DataRow("Tests", "Pedro")]
-        public void Should_return_false_when_todo_name_contains_less_than_6_letters(string todoName, string userName) 
+        public void Should_return_false_when_todo_name_contains_less_than_5_letters(string todoName, string userName) 
         {
             //Arrange
             var sut = new CreateTodoCommand(todoName, userName, DateTime.Now);
@@ -36,6 +35,32 @@ namespace Todo.Domain.Tests.Commands.Inputs
 
             //Assert
             Assert.IsFalse(sut.IsValid);
+        }
+
+        [TestMethod]
+        public void Should_return_false_when_todo_date_is_null() 
+        {
+            //Arrange
+            var sut = new CreateTodoCommand("Do the laundry", "Pedro", null);
+
+            //Act
+            sut.Validate();
+
+            //Assert
+            Assert.IsFalse(sut.IsValid);
+        }
+
+        [TestMethod]
+        public void Should_return_true_when_all_requirements_are_true()
+        {
+            //Arrange
+            var sut = new CreateTodoCommand("Do the laundry", "Pedro", DateTime.Now);
+
+            //Act
+            sut.Validate();
+
+            //Assert
+            Assert.IsTrue(sut.IsValid);
         }
     }
 }

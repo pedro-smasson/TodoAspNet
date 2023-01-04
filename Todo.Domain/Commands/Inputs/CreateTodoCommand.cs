@@ -9,7 +9,7 @@ namespace Todo.Domain.Commands.Inputs
     {
         public CreateTodoCommand() { }
 
-        public CreateTodoCommand(string title, string user, DateTime date)
+        public CreateTodoCommand(string title, string user, DateTime? date)
         {
             Title = title;
             User = user;
@@ -18,7 +18,7 @@ namespace Todo.Domain.Commands.Inputs
 
         public string Title { get; private set; }
         public string User { get; private set; }
-        public DateTime Date { get; private set; }
+        public DateTime? Date { get; private set; }
 
         public bool Validate()
         {
@@ -26,9 +26,9 @@ namespace Todo.Domain.Commands.Inputs
             (
                 new Contract<Notification>()
                     .Requires()
-                    .IsLowerOrEqualsThan(Title, 5, "Please create a better description for this task!")
-                    .IsNullOrEmpty(Title, "Title", "The title cannot be null nor empty!")
-                    .IsNull(Date, "Date", "The date cannot be null!")
+                    .IsGreaterOrEqualsThan(Title, 5, "Please create a better description for this task!")
+                    .IsNotNullOrEmpty(Title, "Title", "The title cannot be null nor empty!")
+                    .IsNotNull(Date, "Date", "The date cannot be null!")
             );
 
             return IsValid;
