@@ -26,9 +26,9 @@ namespace Todo.Domain.Commands.Inputs
             (
                 new Contract<Notification>()
                     .Requires()
-                    .IsNull(Id, "Id", "Your Id cannot be null!")
+                    .IsNotNull(Id, "Id", "Your Id cannot be null!")
                     .IsNotNullOrEmpty(Title, "Title", "Your title cannot be null nor empty!")
-                    .IsLowerOrEqualsThan(Title, 5, "Please create a better description for this task!")
+                    .IsGreaterOrEqualsThan(Title, 5, "Please create a better description for this task!")
             );
 
             return IsValid;
