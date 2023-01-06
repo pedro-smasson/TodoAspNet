@@ -2,7 +2,6 @@
 using Todo.Domain.Commands.Handlers.Contracts;
 using Todo.Domain.Commands.Inputs;
 using Todo.Domain.Commands.Inputs.Contracts;
-using Todo.Domain.Entities;
 using Todo.Domain.Repositories;
 
 namespace Todo.Domain.Commands.Handlers
