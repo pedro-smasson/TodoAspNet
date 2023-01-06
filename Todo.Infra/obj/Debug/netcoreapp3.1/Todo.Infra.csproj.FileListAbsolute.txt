@@ -1,4 +1,6 @@
 D:\Cursos Balta\Todo\Todo.Infra\bin\Debug\netcoreapp3.1\Todo.Infra.deps.json
+D:\Cursos Balta\Todo\Todo.Infra\bin\Debug\netcoreapp3.1\Todo.Infra.runtimeconfig.json
+D:\Cursos Balta\Todo\Todo.Infra\bin\Debug\netcoreapp3.1\Todo.Infra.runtimeconfig.dev.json
 D:\Cursos Balta\Todo\Todo.Infra\bin\Debug\netcoreapp3.1\Todo.Infra.dll
 D:\Cursos Balta\Todo\Todo.Infra\bin\Debug\netcoreapp3.1\Todo.Infra.pdb
 D:\Cursos Balta\Todo\Todo.Infra\bin\Debug\netcoreapp3.1\Todo.Domain.dll
@@ -11,3 +13,4 @@ D:\Cursos Balta\Todo\Todo.Infra\obj\Debug\netcoreapp3.1\Todo.Infra.csproj.CoreCo
 D:\Cursos Balta\Todo\Todo.Infra\obj\Debug\netcoreapp3.1\Todo.Infra.csproj.CopyComplete
 D:\Cursos Balta\Todo\Todo.Infra\obj\Debug\netcoreapp3.1\Todo.Infra.dll
 D:\Cursos Balta\Todo\Todo.Infra\obj\Debug\netcoreapp3.1\Todo.Infra.pdb
+D:\Cursos Balta\Todo\Todo.Infra\obj\Debug\netcoreapp3.1\Todo.Infra.genruntimeconfig.cache

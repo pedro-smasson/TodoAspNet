@@ -6,7 +6,20 @@ D:\Cursos Balta\Todo\Todo.Domain.Tests\bin\Debug\netcoreapp3.1\Todo.Domain.Tests
 D:\Cursos Balta\Todo\Todo.Domain.Tests\bin\Debug\netcoreapp3.1\Todo.Domain.Tests.runtimeconfig.dev.json
 D:\Cursos Balta\Todo\Todo.Domain.Tests\bin\Debug\netcoreapp3.1\Todo.Domain.Tests.dll
 D:\Cursos Balta\Todo\Todo.Domain.Tests\bin\Debug\netcoreapp3.1\Todo.Domain.Tests.pdb
+D:\Cursos Balta\Todo\Todo.Domain.Tests\bin\Debug\netcoreapp3.1\Flunt.dll
 D:\Cursos Balta\Todo\Todo.Domain.Tests\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+D:\Cursos Balta\Todo\Todo.Domain.Tests\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\Cursos Balta\Todo\Todo.Domain.Tests\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Cursos Balta\Todo\Todo.Domain.Tests\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Cursos Balta\Todo\Todo.Domain.Tests\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.Design.dll
+D:\Cursos Balta\Todo\Todo.Domain.Tests\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Cursos Balta\Todo\Todo.Domain.Tests\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\Cursos Balta\Todo\Todo.Domain.Tests\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\Cursos Balta\Todo\Todo.Domain.Tests\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Cursos Balta\Todo\Todo.Domain.Tests\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\Cursos Balta\Todo\Todo.Domain.Tests\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Cursos Balta\Todo\Todo.Domain.Tests\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\Cursos Balta\Todo\Todo.Domain.Tests\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
 D:\Cursos Balta\Todo\Todo.Domain.Tests\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.CoreUtilities.dll
 D:\Cursos Balta\Todo\Todo.Domain.Tests\bin\Debug\netcoreapp3.1\Microsoft.TestPlatform.PlatformAbstractions.dll
 D:\Cursos Balta\Todo\Todo.Domain.Tests\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
@@ -19,6 +32,9 @@ D:\Cursos Balta\Todo\Todo.Domain.Tests\bin\Debug\netcoreapp3.1\Microsoft.VisualS
 D:\Cursos Balta\Todo\Todo.Domain.Tests\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
 D:\Cursos Balta\Todo\Todo.Domain.Tests\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 D:\Cursos Balta\Todo\Todo.Domain.Tests\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+D:\Cursos Balta\Todo\Todo.Domain.Tests\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+D:\Cursos Balta\Todo\Todo.Domain.Tests\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+D:\Cursos Balta\Todo\Todo.Domain.Tests\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
 D:\Cursos Balta\Todo\Todo.Domain.Tests\bin\Debug\netcoreapp3.1\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
 D:\Cursos Balta\Todo\Todo.Domain.Tests\bin\Debug\netcoreapp3.1\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
 D:\Cursos Balta\Todo\Todo.Domain.Tests\bin\Debug\netcoreapp3.1\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
@@ -95,4 +111,3 @@ D:\Cursos Balta\Todo\Todo.Domain.Tests\obj\Debug\netcoreapp3.1\Todo.Domain.Tests
 D:\Cursos Balta\Todo\Todo.Domain.Tests\obj\Debug\netcoreapp3.1\Todo.Domain.Tests.dll
 D:\Cursos Balta\Todo\Todo.Domain.Tests\obj\Debug\netcoreapp3.1\Todo.Domain.Tests.pdb
 D:\Cursos Balta\Todo\Todo.Domain.Tests\obj\Debug\netcoreapp3.1\Todo.Domain.Tests.genruntimeconfig.cache
-D:\Cursos Balta\Todo\Todo.Domain.Tests\bin\Debug\netcoreapp3.1\Flunt.dll

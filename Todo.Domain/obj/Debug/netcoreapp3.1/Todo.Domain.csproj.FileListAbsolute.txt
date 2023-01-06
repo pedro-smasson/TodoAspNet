@@ -1,10 +1,10 @@
 D:\Cursos Balta\Todo\Todo.Domain\bin\Debug\netcoreapp3.1\Todo.Domain.deps.json
 D:\Cursos Balta\Todo\Todo.Domain\bin\Debug\netcoreapp3.1\Todo.Domain.dll
 D:\Cursos Balta\Todo\Todo.Domain\bin\Debug\netcoreapp3.1\Todo.Domain.pdb
+D:\Cursos Balta\Todo\Todo.Domain\obj\Debug\netcoreapp3.1\Todo.Domain.csproj.AssemblyReference.cache
 D:\Cursos Balta\Todo\Todo.Domain\obj\Debug\netcoreapp3.1\Todo.Domain.GeneratedMSBuildEditorConfig.editorconfig
 D:\Cursos Balta\Todo\Todo.Domain\obj\Debug\netcoreapp3.1\Todo.Domain.AssemblyInfoInputs.cache
 D:\Cursos Balta\Todo\Todo.Domain\obj\Debug\netcoreapp3.1\Todo.Domain.AssemblyInfo.cs
 D:\Cursos Balta\Todo\Todo.Domain\obj\Debug\netcoreapp3.1\Todo.Domain.csproj.CoreCompileInputs.cache
 D:\Cursos Balta\Todo\Todo.Domain\obj\Debug\netcoreapp3.1\Todo.Domain.dll
 D:\Cursos Balta\Todo\Todo.Domain\obj\Debug\netcoreapp3.1\Todo.Domain.pdb
-D:\Cursos Balta\Todo\Todo.Domain\obj\Debug\netcoreapp3.1\Todo.Domain.csproj.AssemblyReference.cache
