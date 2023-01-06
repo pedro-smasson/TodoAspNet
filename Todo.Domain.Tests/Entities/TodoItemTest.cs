@@ -17,7 +17,33 @@ namespace Todo.Domain.Tests.Entities
             sut.UpdateTitle("Play basketball");
 
             //Assert
-            Assert.AreEqual(sut.Title, "Play basketball");
+            Assert.AreEqual("Play basketball", sut.Title);
+        }
+
+        [TestMethod]
+        public void Todo_status_must_be_done()
+        {
+            //Arrange
+            var sut = new TodoItem("Do the laundry", DateTime.Now, "Pedro");
+
+            //Act
+            sut.MarkAsDone();
+
+            //Assert
+            Assert.AreEqual(true, sut.Done);
+        }
+
+        [TestMethod]
+        public void Todo_status_must_be_on_going() 
+        {
+            //Arrange
+            var sut = new TodoItem("Do the laundry", DateTime.Now, "Pedro");
+
+            //Act
+            sut.MarkAsOnGoing();
+
+            //Assert
+            Assert.AreEqual(false, sut.Done);
         }
     }
 }
