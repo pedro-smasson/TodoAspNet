@@ -16,6 +16,17 @@ namespace Todo.Domain.Commands.Handlers
 
         public ICommandResult Handle(UpdateTodoCommand command)
         {
+            command.Validate();
+
+            if (!command.IsValid)
+                return new GenericCommandResult(false, "Oops! Something went wrong...", command.Notifications);
+
+            var todo = _todoRepository.GetTodoById(command.Id, command.User);
+            
+            todo.UpdateTitle(command.Title);
+
+            _todoRepository.Update(todo);
+
             return new GenericCommandResult(true, "Todo updated successfully!", null);
         }
     }
