@@ -22,7 +22,7 @@ namespace Todo.Domain.Commands.Handlers
 
             var todo = _todoRepository.GetTodoById(command.Id, command.User);
 
-            todo.MarkAsOnGoing();
+            todo.MarkAsUndone();
 
             _todoRepository.Update(todo);
 

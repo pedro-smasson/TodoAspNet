@@ -20,7 +20,7 @@ namespace Todo.Domain.Entities
         public void MarkAsDone()
             => Done = true;
 
-        public void MarkAsOnGoing()
+        public void MarkAsUndone()
             => Done = false;
 
         public void UpdateTitle(string title)

@@ -40,7 +40,7 @@ namespace Todo.Domain.Tests.Entities
             var sut = new TodoItem("Do the laundry", DateTime.Now, "Pedro");
 
             //Act
-            sut.MarkAsOnGoing();
+            sut.MarkAsUndone();
 
             //Assert
             Assert.AreEqual(false, sut.Done);
