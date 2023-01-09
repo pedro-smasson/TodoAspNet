@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ogWZVBioifFo5RJitiWw75l0DydmJq7kuyt5ovXIifAM6PTvkKSDU9ACYAC5JxKji8qjMAdXlVd0mBlTTRK2vw==",
+  "dgSpecHash": "MJf6LxDGbazd6xKyVxbJHRgugSnr7PukZ7YoxrKx9drYmP6UUvAB24m625CjShDi6hxeibNJtlBSpbDZWfLu+g==",
   "success": true,
   "projectFilePath": "D:\\Cursos Balta\\Todo\\Todo.Infra\\Todo.Infra.csproj",
   "expectedPackageFiles": [
@@ -14,6 +14,7 @@
     "C:\\Users\\ESTÁGIO\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\5.0.17\\microsoft.entityframeworkcore.inmemory.5.0.17.nupkg.sha512",
     "C:\\Users\\ESTÁGIO\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\5.0.17\\microsoft.entityframeworkcore.relational.5.0.17.nupkg.sha512",
     "C:\\Users\\ESTÁGIO\\.nuget\\packages\\microsoft.entityframeworkcore.relational.design\\1.1.6\\microsoft.entityframeworkcore.relational.design.1.1.6.nupkg.sha512",
+    "C:\\Users\\ESTÁGIO\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\5.0.17\\microsoft.entityframeworkcore.tools.5.0.17.nupkg.sha512",
     "C:\\Users\\ESTÁGIO\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\5.0.0\\microsoft.extensions.caching.abstractions.5.0.0.nupkg.sha512",
     "C:\\Users\\ESTÁGIO\\.nuget\\packages\\microsoft.extensions.caching.memory\\5.0.0\\microsoft.extensions.caching.memory.5.0.0.nupkg.sha512",
     "C:\\Users\\ESTÁGIO\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\5.0.0\\microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",

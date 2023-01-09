@@ -8,3 +8,6 @@ D:\Cursos Balta\Todo\Todo.Domain\obj\Debug\netcoreapp3.1\Todo.Domain.AssemblyInf
 D:\Cursos Balta\Todo\Todo.Domain\obj\Debug\netcoreapp3.1\Todo.Domain.csproj.CoreCompileInputs.cache
 D:\Cursos Balta\Todo\Todo.Domain\obj\Debug\netcoreapp3.1\Todo.Domain.dll
 D:\Cursos Balta\Todo\Todo.Domain\obj\Debug\netcoreapp3.1\Todo.Domain.pdb
+D:\Cursos Balta\Todo\Todo.Domain\bin\Debug\netcoreapp3.1\Todo.Domain.runtimeconfig.json
+D:\Cursos Balta\Todo\Todo.Domain\bin\Debug\netcoreapp3.1\Todo.Domain.runtimeconfig.dev.json
+D:\Cursos Balta\Todo\Todo.Domain\obj\Debug\netcoreapp3.1\Todo.Domain.genruntimeconfig.cache
