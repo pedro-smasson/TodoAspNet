@@ -22,6 +22,6 @@ namespace Todo.Infra.Contexts
         }
 
         protected override void OnConfiguring(DbContextOptionsBuilder options)
-            => options.UseSqlServer("Data Source=DESKTOP-IETNHSD;Initial Catalog=Todos;User ID=sa; pwd=123");
+            => options.UseSqlServer("connectionString");
     }
 }
