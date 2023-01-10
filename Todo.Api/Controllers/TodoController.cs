@@ -12,10 +12,11 @@ namespace Todo.Api.Controllers
 {
     [ApiController]
     [Route("v1/todos")]
-    [Authorize]
+    //[Authorize]
     public class TodoController : ControllerBase
     {
-        public string FindUser { get => User.Claims.FirstOrDefault(x => x.Type == "user_id")?.Value; }
+        // you can use this property when SQL Server is the main database of the system, otherwise it will not work (replace all d "Pedro" w/ this)
+        //public string FindUser { get => User.Claims.FirstOrDefault(x => x.Type == "user_id")?.Value; }
 
         [Route("")]
         [HttpPost]
@@ -25,37 +26,37 @@ namespace Todo.Api.Controllers
         [Route("")]
         [HttpGet]
         public IEnumerable<TodoItem> GetAll([FromServices] ITodoRepository repository)
-            => repository.GetAll(FindUser);
+            => repository.GetAll("Pedro");
 
         [Route("done")]
         [HttpGet]
         public IEnumerable<TodoItem> GetAllDone([FromServices] ITodoRepository repository)
-            => repository.GetAllDone(FindUser);
+            => repository.GetAllDone("Pedro");
 
         [Route("undone")]
         [HttpGet]
         public IEnumerable<TodoItem> GetAllUndone([FromServices] ITodoRepository repository)
-            => repository.GetAllUndone(FindUser);
+            => repository.GetAllUndone("Pedro");
 
         [Route("done/today")]
         [HttpGet]
         public IEnumerable<TodoItem> GetDoneForToday([FromServices] ITodoRepository repository)
-            => repository.GetAllByPeriod(FindUser, true, DateTime.Today);
+            => repository.GetAllByPeriod("Pedro", true, DateTime.Today);
 
         [Route("undone/today")]
         [HttpGet]
         public IEnumerable<TodoItem> GetUndoneForToday([FromServices] ITodoRepository repository)
-            => repository.GetAllByPeriod(FindUser, false, DateTime.Today);
+            => repository.GetAllByPeriod("Pedro", false, DateTime.Today);
 
         [Route("done/tomorrow")]
         [HttpGet]
         public IEnumerable<TodoItem> GetDoneForTomorrow([FromServices] ITodoRepository repository)
-            => repository.GetAllByPeriod(FindUser, true, DateTime.Today.AddDays(1));
+            => repository.GetAllByPeriod("Pedro", true, DateTime.Today.AddDays(1));
 
         [Route("undone/tomorrow")]
         [HttpGet]
         public IEnumerable<TodoItem> GetUndoneForTomorrow([FromServices] ITodoRepository repository)
-            => repository.GetAllByPeriod(FindUser, false, DateTime.Today.AddDays(1));
+            => repository.GetAllByPeriod("Pedro", false, DateTime.Today.AddDays(1));
 
         [Route("")]
         [HttpPut]

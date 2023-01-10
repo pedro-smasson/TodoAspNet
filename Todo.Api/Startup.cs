@@ -25,9 +25,9 @@ namespace Todo.Api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            
-            //services.AddDbContext<TodoContext>(opt => opt.UseInMemoryDatabase("Database"));
-            services.AddDbContext<TodoContext>(opt => opt.UseSqlServer(Configuration.GetConnectionString("connectionString")));
+
+            services.AddDbContext<TodoContext>(opt => opt.UseInMemoryDatabase("Database"));
+            //services.AddDbContext<TodoContext>(opt => opt.UseSqlServer(Configuration.GetConnectionString("connectionString")));
 
             services.AddTransient<ITodoRepository, TodoRepository>();
 
@@ -36,20 +36,20 @@ namespace Todo.Api
             services.AddTransient<MarkTodoAsDoneHandler, MarkTodoAsDoneHandler>();
             services.AddTransient<MarkTodoAsUndoneHandler, MarkTodoAsUndoneHandler>();
 
-            services
-                .AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
-                .AddJwtBearer(opt =>
-                {
-                    opt.Authority = "https://securetoken.google.com/todoappaspnet";
-                    opt.TokenValidationParameters = new TokenValidationParameters
-                    {
-                        ValidateIssuer = true,
-                        ValidIssuer = "https://securetoken.google.com/todoappaspnet",
-                        ValidateAudience = true,
-                        ValidAudience = "todoappaspnet",
-                        ValidateLifetime = true
-                    };
-                });
+            //services
+            //    .AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+            //    .AddJwtBearer(opt =>
+            //    {
+            //        opt.Authority = "https://securetoken.google.com/todoappaspnet";
+            //        opt.TokenValidationParameters = new TokenValidationParameters
+            //        {
+            //            ValidateIssuer = true,
+            //            ValidIssuer = "https://securetoken.google.com/todoappaspnet",
+            //            ValidateAudience = true,
+            //            ValidAudience = "todoappaspnet",
+            //            ValidateLifetime = true
+            //        };
+            //    });
 
         }
 

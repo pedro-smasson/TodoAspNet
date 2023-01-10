@@ -18,6 +18,7 @@ namespace Todo.Infra.Repositories
 
         public void Create(TodoItem todo)
         {
+            Console.WriteLine(_todoContext.Todos);
             _todoContext.Todos.Add(todo);
             _todoContext.SaveChanges();
         }

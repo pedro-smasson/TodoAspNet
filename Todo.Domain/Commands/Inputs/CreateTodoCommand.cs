@@ -16,9 +16,9 @@ namespace Todo.Domain.Commands.Inputs
             Date = date;
         }
 
-        public string Title { get; private set; }
-        public string User { get; private set; }
-        public DateTime? Date { get; private set; }
+        public string Title { get; set; }
+        public string User { get; set; }
+        public DateTime? Date { get; set; }
 
         public bool Validate()
         {

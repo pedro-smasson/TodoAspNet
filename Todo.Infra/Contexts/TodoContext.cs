@@ -21,7 +21,7 @@ namespace Todo.Infra.Contexts
             modelBuilder.Entity<TodoItem>().HasIndex(u => u.User);
         }
 
-        protected override void OnConfiguring(DbContextOptionsBuilder options)
-            => options.UseSqlServer("connectionString");
+        //protected override void OnConfiguring(DbContextOptionsBuilder options)
+        //    => options.UseSqlServer("connectionString");
     }
 }
