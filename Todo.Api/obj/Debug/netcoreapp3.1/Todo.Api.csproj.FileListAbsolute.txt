@@ -69,3 +69,4 @@ D:\Cursos Balta\Todo\Todo.Api\obj\Debug\netcoreapp3.1\Todo.Api.csproj.CopyComple
 D:\Cursos Balta\Todo\Todo.Api\obj\Debug\netcoreapp3.1\Todo.Api.dll
 D:\Cursos Balta\Todo\Todo.Api\obj\Debug\netcoreapp3.1\Todo.Api.pdb
 D:\Cursos Balta\Todo\Todo.Api\obj\Debug\netcoreapp3.1\Todo.Api.genruntimeconfig.cache
+D:\Cursos Balta\Todo\Todo.Api\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
